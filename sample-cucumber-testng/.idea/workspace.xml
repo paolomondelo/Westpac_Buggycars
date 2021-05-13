@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef9d388-d2d1-4b93-8355-42771e0269cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_1_2243356541.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_1_2243356541.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2188852174.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2188852174.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2_2769700556.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2_2769700556.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_3_2877306845.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_3_2877306845.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_4_2217092828.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_4_2217092828.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_5_719196998.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_5_719196998.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1470756296.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1470756296.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1476626479.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1476626479.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1708769640.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1708769640.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_2015809129.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_2015809129.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_338298432.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_338298432.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3494217976.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3494217976.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3511303174.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3511303174.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_4090000864.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_4090000864.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/PopularMakePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/PopularMakePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/PopularMakeStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/PopularMakeStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/OverallRating.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/OverallRating.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Buggy_Cars_Rating_Test_Approach_v0.1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Buggy_Cars_Rating_Test_Approach_v0.1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/PopularMakeTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PopularMakeTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/PopularMakePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/PopularMakePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -52,13 +34,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1sGh2hc3TJLKuzMRdKSP28KVPTz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../sample/sample-cucumber-testng" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -71,7 +54,7 @@
       <recent name="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: RegistrationTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: PopularMakeTest">
     <configuration name="Feature: LoginTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginTest.feature" />
@@ -169,9 +152,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: PopularMakeTest" />
         <item itemvalue="Cucumber Java.Feature: RegistrationTest" />
         <item itemvalue="Cucumber Java.Feature: PopularModelTest" />
-        <item itemvalue="Cucumber Java.Feature: PopularMakeTest" />
         <item itemvalue="Cucumber Java.Feature: OverallRating" />
         <item itemvalue="Cucumber Java.Feature: LoginTest" />
       </list>
@@ -202,46 +185,46 @@
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620826684819" />
     <state x="2296" y="164" key="FileChooserDialogImpl/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620876417227" />
-    <state width="1540" height="188" key="GridCell.Tab.0.bottom" timestamp="1620875719492">
+    <state width="938" height="242" key="GridCell.Tab.0.bottom" timestamp="1620895024146">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574611" />
-    <state width="1540" height="188" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719492" />
-    <state width="1540" height="188" key="GridCell.Tab.0.center" timestamp="1620875719492">
+    <state width="938" height="242" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024146" />
+    <state width="938" height="242" key="GridCell.Tab.0.center" timestamp="1620895024146">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574610" />
-    <state width="1540" height="188" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719492" />
-    <state width="1540" height="188" key="GridCell.Tab.0.left" timestamp="1620875719491">
+    <state width="938" height="242" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024146" />
+    <state width="938" height="242" key="GridCell.Tab.0.left" timestamp="1620895024146">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574610" />
-    <state width="1540" height="188" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719491" />
-    <state width="1540" height="188" key="GridCell.Tab.0.right" timestamp="1620875719492">
+    <state width="938" height="242" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024146" />
+    <state width="938" height="242" key="GridCell.Tab.0.right" timestamp="1620895024146">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574611" />
-    <state width="1540" height="188" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719492" />
-    <state width="1540" height="188" key="GridCell.Tab.1.bottom" timestamp="1620875719493">
+    <state width="938" height="242" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024146" />
+    <state width="938" height="242" key="GridCell.Tab.1.bottom" timestamp="1620895024147">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1540" height="188" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719493" />
-    <state width="1540" height="188" key="GridCell.Tab.1.center" timestamp="1620875719492">
+    <state width="938" height="242" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024147" />
+    <state width="938" height="242" key="GridCell.Tab.1.center" timestamp="1620895024147">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1540" height="188" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719492" />
-    <state width="1540" height="188" key="GridCell.Tab.1.left" timestamp="1620875719492">
+    <state width="938" height="242" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024147" />
+    <state width="938" height="242" key="GridCell.Tab.1.left" timestamp="1620895024147">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1540" height="188" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719492" />
-    <state width="1540" height="188" key="GridCell.Tab.1.right" timestamp="1620875719493">
+    <state width="938" height="242" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024147" />
+    <state width="938" height="242" key="GridCell.Tab.1.right" timestamp="1620895024147">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1540" height="188" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620875719493" />
+    <state width="938" height="242" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620895024147" />
     <state x="2090" y="115" key="Maven.ArtifactSearchDialog" timestamp="1620546038655">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>

@@ -25,7 +25,7 @@ Feature: Popular Make Test
       |loginname      |firstname|lastname|password        |confirmspassword|comments |
       |paolovalidaccnt|Ash      |Ketchum |Paolomondelo#123|Paolomondelo#123|Articuno |
 
-  @tests @popularmake @smoketest
+  @tests @popularmake @defect @defect12
   Scenario Outline: Validate that the user can vote and comment and Author should be <firstname> <lastname> for Model :Reventon
     Given a user creates a new user with login name: <loginname> and fist name: <firstname> and last name: <lastname> and password name: <password> and user enters confirms password: <confirmspassword>
     When the user clicks the Popular Make Button
