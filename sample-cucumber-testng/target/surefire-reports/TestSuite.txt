@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 34, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 307.041 s <<< FAILURE! - in TestSuite
-com.example.TestRunner.runScenario["Validate that the user can vote and comment and Author should be Ash Ketchum for Model :Reventon", "Optional[Popular Make Test]"](8)  Time elapsed: 10.009 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 479.86 s - in TestSuite

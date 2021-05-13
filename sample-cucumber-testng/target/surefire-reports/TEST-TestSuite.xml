@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="307.041" tests="34" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="479.86" tests="33" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="webdriver.chrome.driver" value="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\src\main\resources\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\target\test-classes;C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\target\classes;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mondelop\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mondelop\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mondelop\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mondelop\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mondelop\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mondelop\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mondelop\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mondelop\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mondelop\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mondelop\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\mondelop\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\mondelop\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mondelop\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\mondelop\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mondelop\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mondelop\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\mondelop\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-testng\6.7.0\cucumber-testng-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\mondelop\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng\target\test-classes;C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng\target\classes;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mondelop\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mondelop\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mondelop\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mondelop\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mondelop\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mondelop\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mondelop\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mondelop\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mondelop\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mondelop\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\mondelop\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\mondelop\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mondelop\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\mondelop\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mondelop\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mondelop\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\mondelop\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-testng\6.7.0\cucumber-testng-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\mondelop\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,9 +18,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NZ"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\mondelop\AppData\Local\Temp\surefire10485074398501726843\surefirebooter2005365266892779223.jar C:\Users\mondelop\AppData\Local\Temp\surefire10485074398501726843 2021-05-13T19-36-21_890-jvmRun1 surefire5223262757833974374tmp surefire_06584295287860860691tmp"/>
+    <property name="sun.java.command" value="C:\Users\mondelop\AppData\Local\Temp\surefire14278473147785445243\surefirebooter9937979630679700372.jar C:\Users\mondelop\AppData\Local\Temp\surefire14278473147785445243 2021-05-13T20-46-58_355-jvmRun1 surefire12021354114611817626tmp surefire_014113690467241465707tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\target\test-classes;C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\target\classes;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mondelop\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mondelop\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mondelop\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mondelop\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mondelop\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mondelop\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mondelop\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mondelop\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mondelop\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mondelop\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\mondelop\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\mondelop\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mondelop\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\mondelop\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mondelop\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mondelop\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\mondelop\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-testng\6.7.0\cucumber-testng-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\mondelop\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng\target\test-classes;C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng\target\classes;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mondelop\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mondelop\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mondelop\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mondelop\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mondelop\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mondelop\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mondelop\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mondelop\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mondelop\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mondelop\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mondelop\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\mondelop\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\mondelop\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\mondelop\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\mondelop\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mondelop\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\mondelop\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mondelop\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mondelop\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\mondelop\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-testng\6.7.0\cucumber-testng-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\mondelop\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\mondelop\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\mondelop"/>
     <property name="user.language" value="en"/>
@@ -28,13 +28,13 @@
     <property name="java.version.date" value="2020-10-20"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng"/>
+    <property name="basedir" value="C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\mondelop\AppData\Local\Temp\surefire10485074398501726843\surefirebooter2005365266892779223.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mondelop\AppData\Local\Temp\surefire14278473147785445243\surefirebooter9937979630679700372.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9+7-LTS"/>
@@ -49,7 +49,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\mondelop\AppData\Local\Temp\"/>
     <property name="java.version" value="11.0.9"/>
-    <property name="user.dir" value="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng"/>
+    <property name="user.dir" value="C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Login to application using valid credentials&quot;, &quot;Optional[Login Test]&quot;](1)" classname="com.example.TestRunner" time="11.013">
+  <testcase name="runScenario[&quot;Login to application using valid credentials&quot;, &quot;Optional[Login Test]&quot;](1)" classname="com.example.TestRunner" time="13.798">
     <system-out><![CDATA[
 @tests @logins @smoketest
 Scenario Outline: Login to application using valid credentials &amp#27;[90m# src/test/resources/features/LoginTest.feature:13&amp#27;[0m
@@ -70,15 +70,15 @@ Scenario Outline: Login to application using valid credentials &amp#27;[90m# src
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on submit button&amp#27;[0m                            &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.userClicksOnSubmitButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is successfully logged in&amp#27;[0m                          &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.userIsSuccessfullyLoggedIn()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46464
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13458
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:36:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:47:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login to application using invalid credentials&quot;, &quot;Optional[Login Test]&quot;](2)" classname="com.example.TestRunner" time="6.361">
+  <testcase name="runScenario[&quot;Login to application using invalid credentials&quot;, &quot;Optional[Login Test]&quot;](2)" classname="com.example.TestRunner" time="11.165">
     <system-out><![CDATA[
 @tests @logins @smoketest
 Scenario Outline: Login to application using invalid credentials &amp#27;[90m# src/test/resources/features/LoginTest.feature:22&amp#27;[0m
@@ -87,51 +87,51 @@ Scenario Outline: Login to application using invalid credentials &amp#27;[90m# s
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on submit button&amp#27;[0m                              &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.userClicksOnSubmitButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is denied from logging in&amp#27;[0m                            &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.userIsDeniedFromLoggingIn()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 31831
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 45683
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:36:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:47:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can visit the Overall Rating Page&quot;, &quot;Optional[Overall Rating Test]&quot;](3)" classname="com.example.TestRunner" time="8.659">
+  <testcase name="runScenario[&quot;Validate that the user can visit the Overall Rating Page&quot;, &quot;Optional[Overall Rating Test]&quot;](3)" classname="com.example.TestRunner" time="18.346">
     <system-out><![CDATA[
 @tests @overallratings @smoketest
 Scenario Outline: Validate that the user can visit the Overall Rating Page                                                                                                                           &amp#27;[90m# src/test/resources/features/OverallRating.feature:13&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt2068628278test@
-paolovalidaccnt2068628278test@
-paolovalidaccnt2068628278test@
-paolovalidaccnt2068628278test@
-paolovalidaccnt2068628278test@
-paolovalidaccnt2068628278test@
-paolovalidaccnt2068628278test@
+paolovalidaccnt1144740263test@
+paolovalidaccnt1144740263test@
+paolovalidaccnt1144740263test@
+paolovalidaccnt1144740263test@
+paolovalidaccnt1144740263test@
+paolovalidaccnt1144740263test@
+paolovalidaccnt1144740263test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Overall Rating Page Button&amp#27;[0m                                                                                                                                                &amp#27;[90m# com.example.StepDefinitions.OverallRatingStepDefs.theUserClicksTheOverallRatingPageButton()&amp#27;[0m
 Lamborghini
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is redirected to Overall Rating Page&amp#27;[0m                                                                                                                                                 &amp#27;[90m# com.example.StepDefinitions.OverallRatingStepDefs.theUserIsRedirectedToOverallRatingPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37612
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 7004
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:36:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:47:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Overall Rating Test]&quot;](4)" classname="com.example.TestRunner" time="11.647">
+  <testcase name="runScenario[&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Overall Rating Test]&quot;](4)" classname="com.example.TestRunner" time="21.733">
     <system-out><![CDATA[
 @tests @overallratings @smoketest
 Scenario Outline: Validate that the user can vote and comment                                                                                                                                        &amp#27;[90m# src/test/resources/features/OverallRating.feature:25&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1094281287test@
-paolovalidaccnt1094281287test@
-paolovalidaccnt1094281287test@
-paolovalidaccnt1094281287test@
-paolovalidaccnt1094281287test@
-paolovalidaccnt1094281287test@
-paolovalidaccnt1094281287test@
+paolovalidaccnt890695008test@
+paolovalidaccnt890695008test@
+paolovalidaccnt890695008test@
+paolovalidaccnt890695008test@
+paolovalidaccnt890695008test@
+paolovalidaccnt890695008test@
+paolovalidaccnt890695008test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Overall Rating Page Button&amp#27;[0m                                                                                                                                                &amp#27;[90m# com.example.StepDefinitions.OverallRatingStepDefs.theUserClicksTheOverallRatingPageButton()&amp#27;[0m
 Lamborghini
@@ -141,26 +141,26 @@ Lamborghini
 Thank you for your vote!
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidates that the vote is successful&amp#27;[0m                                                                                                                                                          &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.validatesThatTheVoteIsSuccessful()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13790
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46860
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:37:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:47:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the pagination for overall rating page is working&quot;, &quot;Optional[Overall Rating Test]&quot;](5)" classname="com.example.TestRunner" time="8.019">
+  <testcase name="runScenario[&quot;Validate that the pagination for overall rating page is working&quot;, &quot;Optional[Overall Rating Test]&quot;](5)" classname="com.example.TestRunner" time="11.272">
     <system-out><![CDATA[
 @tests @overallratings @smoketest
 Scenario Outline: Validate that the pagination for overall rating page is working                                                                                                                    &amp#27;[90m# src/test/resources/features/OverallRating.feature:49&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt463100315test@
-paolovalidaccnt463100315test@
-paolovalidaccnt463100315test@
-paolovalidaccnt463100315test@
-paolovalidaccnt463100315test@
-paolovalidaccnt463100315test@
-paolovalidaccnt463100315test@
+paolovalidaccnt1875304353test@
+paolovalidaccnt1875304353test@
+paolovalidaccnt1875304353test@
+paolovalidaccnt1875304353test@
+paolovalidaccnt1875304353test@
+paolovalidaccnt1875304353test@
+paolovalidaccnt1875304353test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Overall Rating Page Button&amp#27;[0m                                                                                                                                                &amp#27;[90m# com.example.StepDefinitions.OverallRatingStepDefs.theUserClicksTheOverallRatingPageButton()&amp#27;[0m
 Lamborghini
@@ -168,51 +168,51 @@ Lamborghini
 « » page 2 of 5
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe page pagination is validated and is working properly on the overall rating page&amp#27;[0m                                                                                                            &amp#27;[90m# com.example.StepDefinitions.OverallRatingStepDefs.thePagePaginationIsValidatedAndIsWorkingProperlyOnTheOverallRatingPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28513
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 30388
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:37:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:48:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can visit the Popular Make Page&quot;, &quot;Optional[Popular Make Test]&quot;](6)" classname="com.example.TestRunner" time="8.389">
+  <testcase name="runScenario[&quot;Validate that the user can visit the Popular Make Page&quot;, &quot;Optional[Popular Make Test]&quot;](6)" classname="com.example.TestRunner" time="11.412">
     <system-out><![CDATA[
 @tests @popularmake @smoketest
 Scenario Outline: Validate that the user can visit the Popular Make Page                                                                                                                             &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:13&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt25309256test@
-paolovalidaccnt25309256test@
-paolovalidaccnt25309256test@
-paolovalidaccnt25309256test@
-paolovalidaccnt25309256test@
-paolovalidaccnt25309256test@
-paolovalidaccnt25309256test@
+paolovalidaccnt1565861524test@
+paolovalidaccnt1565861524test@
+paolovalidaccnt1565861524test@
+paolovalidaccnt1565861524test@
+paolovalidaccnt1565861524test@
+paolovalidaccnt1565861524test@
+paolovalidaccnt1565861524test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is redirected to the Popular Make Page&amp#27;[0m                                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserIsRedirectedToThePopularMakePage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 8152
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29020
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:37:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:48:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Popular Make Test]&quot;](7)" classname="com.example.TestRunner" time="12.398">
+  <testcase name="runScenario[&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Popular Make Test]&quot;](7)" classname="com.example.TestRunner" time="18.701">
     <system-out><![CDATA[
 @tests @popularmake @smoketest
 Scenario Outline: Validate that the user can vote and comment                                                                                                                                        &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:26&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1871260300test@
-paolovalidaccnt1871260300test@
-paolovalidaccnt1871260300test@
-paolovalidaccnt1871260300test@
-paolovalidaccnt1871260300test@
-paolovalidaccnt1871260300test@
-paolovalidaccnt1871260300test@
+paolovalidaccnt1727349776test@
+paolovalidaccnt1727349776test@
+paolovalidaccnt1727349776test@
+paolovalidaccnt1727349776test@
+paolovalidaccnt1727349776test@
+paolovalidaccnt1727349776test@
+paolovalidaccnt1727349776test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -222,69 +222,26 @@ Lamborghini
 Thank you for your vote!
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidates that the vote is successful&amp#27;[0m                                                                                                                                                          &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.validatesThatTheVoteIsSuccessful()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20988
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 8070
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:37:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:48:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can vote and comment and Author should be Ash Ketchum for Model :Reventon&quot;, &quot;Optional[Popular Make Test]&quot;](8)" classname="com.example.TestRunner" time="10.009">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
-]]></failure>
-    <system-out><![CDATA[
-@tests @popularmake @smoketest
-Scenario Outline: Validate that the user can vote and comment and Author should be Ash Ketchum for Model :Reventon                                                                                   &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:42&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1794253020test@
-paolovalidaccnt1794253020test@
-paolovalidaccnt1794253020test@
-paolovalidaccnt1794253020test@
-paolovalidaccnt1794253020test@
-paolovalidaccnt1794253020test@
-paolovalidaccnt1794253020test@
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
-Lamborghini
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is redirected to the Popular Make Page&amp#27;[0m                                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserIsRedirectedToThePopularMakePage()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user picks Reventon&amp#27;[0m                                                                                                                                                                        &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserPicksReventon()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mpopulates the comment box: &amp#27;[0m&amp#27;[32m&amp#27;[1mZapdos&amp#27;[0m&amp#27;[32m and submits the vote&amp#27;[0m                                                                                                                                         &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.populatesTheCommentBoxComments(java.lang.String)&amp#27;[0m
-Thank you for your vote!
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidates that the vote is successful&amp#27;[0m                                                                                                                                                          &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.validatesThatTheVoteIsSuccessful()&amp#27;[0m
-
-  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mvalidate if the Author column is populated&amp#27;[0m                                                                                                                                                     &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.validateIfTheAuthorColumnIsPopulated()&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.example.PopularMakePage.validateAuthorCol(PopularMakePage.java:107)
-	at com.example.StepDefinitions.PopularMakeStepDefs.validateIfTheAuthorColumnIsPopulated(PopularMakeStepDefs.java:74)
-	at âœ½.validate if the Author column is populated(file:///C:/Users/mondelop/Desktop/Java%20Selenium/WestPac4/sample-cucumber-testng/src/test/resources/features/PopularMakeTest.feature:36)
-&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mvalidate if the reventon comment section is populated with &amp#27;[0m&amp#27;[36m&amp#27;[1mZapdos&amp#27;[0m                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.validateIfTheReventonCommentSectionIsPopulatedWithComments(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 44809
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-May 13, 2021 7:37:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Validate that the Model Column is present&quot;, &quot;Optional[Popular Make Test]&quot;](9)" classname="com.example.TestRunner" time="7.144">
+  <testcase name="runScenario[&quot;Validate that the Model Column is present&quot;, &quot;Optional[Popular Make Test]&quot;](8)" classname="com.example.TestRunner" time="10.101">
     <system-out><![CDATA[
 @tests @popularmake @smoketest
 Scenario Outline: Validate that the Model Column is present                                                                                                                                          &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:53&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt152677310test@
-paolovalidaccnt152677310test@
-paolovalidaccnt152677310test@
-paolovalidaccnt152677310test@
-paolovalidaccnt152677310test@
-paolovalidaccnt152677310test@
-paolovalidaccnt152677310test@
+paolovalidaccnt1859898999test@
+paolovalidaccnt1859898999test@
+paolovalidaccnt1859898999test@
+paolovalidaccnt1859898999test@
+paolovalidaccnt1859898999test@
+paolovalidaccnt1859898999test@
+paolovalidaccnt1859898999test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -292,26 +249,26 @@ Lamborghini
 Model
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mModel column should be present&amp#27;[0m                                                                                                                                                                 &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.modelColumnShouldBePresent()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 32490
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 4241
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:37:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:48:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the Model Column is populated&quot;, &quot;Optional[Popular Make Test]&quot;](10)" classname="com.example.TestRunner" time="7.987">
+  <testcase name="runScenario[&quot;Validate that the Model Column is populated&quot;, &quot;Optional[Popular Make Test]&quot;](9)" classname="com.example.TestRunner" time="18.692">
     <system-out><![CDATA[
 @tests @popularmake @smoketest
 Scenario Outline: Validate that the Model Column is populated                                                                                                                                        &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:63&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt703200883test@
-paolovalidaccnt703200883test@
-paolovalidaccnt703200883test@
-paolovalidaccnt703200883test@
-paolovalidaccnt703200883test@
-paolovalidaccnt703200883test@
-paolovalidaccnt703200883test@
+paolovalidaccnt505538812test@
+paolovalidaccnt505538812test@
+paolovalidaccnt505538812test@
+paolovalidaccnt505538812test@
+paolovalidaccnt505538812test@
+paolovalidaccnt505538812test@
+paolovalidaccnt505538812test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -319,26 +276,26 @@ Lamborghini
 Diablo
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mModel column should be populated&amp#27;[0m                                                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.modelColumnShouldBePopulated()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 12567
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 34072
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:38:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:49:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the Rank Column is present&quot;, &quot;Optional[Popular Make Test]&quot;](11)" classname="com.example.TestRunner" time="7.95">
+  <testcase name="runScenario[&quot;Validate that the Rank Column is present&quot;, &quot;Optional[Popular Make Test]&quot;](10)" classname="com.example.TestRunner" time="7.018">
     <system-out><![CDATA[
 @tests @popularmake @smoketest
 Scenario Outline: Validate that the Rank Column is present                                                                                                                                           &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:73&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt275906556test@
-paolovalidaccnt275906556test@
-paolovalidaccnt275906556test@
-paolovalidaccnt275906556test@
-paolovalidaccnt275906556test@
-paolovalidaccnt275906556test@
-paolovalidaccnt275906556test@
+paolovalidaccnt984160212test@
+paolovalidaccnt984160212test@
+paolovalidaccnt984160212test@
+paolovalidaccnt984160212test@
+paolovalidaccnt984160212test@
+paolovalidaccnt984160212test@
+paolovalidaccnt984160212test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -346,26 +303,26 @@ Lamborghini
 Rank
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mRank column should be present&amp#27;[0m                                                                                                                                                                  &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.rankColumnShouldBePresent()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 30410
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 47187
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:38:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:49:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the Rank Value is populated&quot;, &quot;Optional[Popular Make Test]&quot;](12)" classname="com.example.TestRunner" time="7.988">
+  <testcase name="runScenario[&quot;Validate that the Rank Value is populated&quot;, &quot;Optional[Popular Make Test]&quot;](11)" classname="com.example.TestRunner" time="14.466">
     <system-out><![CDATA[
 @tests @popularmake @smoketest
 Scenario Outline: Validate that the Rank Value is populated                                                                                                                                          &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:83&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt2115420881test@
-paolovalidaccnt2115420881test@
-paolovalidaccnt2115420881test@
-paolovalidaccnt2115420881test@
-paolovalidaccnt2115420881test@
-paolovalidaccnt2115420881test@
-paolovalidaccnt2115420881test@
+paolovalidaccnt1323547033test@
+paolovalidaccnt1323547033test@
+paolovalidaccnt1323547033test@
+paolovalidaccnt1323547033test@
+paolovalidaccnt1323547033test@
+paolovalidaccnt1323547033test@
+paolovalidaccnt1323547033test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -373,26 +330,26 @@ Lamborghini
 1
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mRank value should be populated&amp#27;[0m                                                                                                                                                                 &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.rankValueShouldBePopulated()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 7780
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 47675
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:38:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:49:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the page pagination is working&quot;, &quot;Optional[Popular Make Test]&quot;](13)" classname="com.example.TestRunner" time="7.973">
+  <testcase name="runScenario[&quot;Validate that the page pagination is working&quot;, &quot;Optional[Popular Make Test]&quot;](12)" classname="com.example.TestRunner" time="14.053">
     <system-out><![CDATA[
 @tests @popularmake @smoketest
 Scenario Outline: Validate that the page pagination is working                                                                                                                                       &amp#27;[90m# src/test/resources/features/PopularMakeTest.feature:93&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt469690356test@
-paolovalidaccnt469690356test@
-paolovalidaccnt469690356test@
-paolovalidaccnt469690356test@
-paolovalidaccnt469690356test@
-paolovalidaccnt469690356test@
-paolovalidaccnt469690356test@
+paolovalidaccnt1082826066test@
+paolovalidaccnt1082826066test@
+paolovalidaccnt1082826066test@
+paolovalidaccnt1082826066test@
+paolovalidaccnt1082826066test@
+paolovalidaccnt1082826066test@
+paolovalidaccnt1082826066test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -400,51 +357,51 @@ Lamborghini
 « » page 2 of 2
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe page pagination is validated and is working properly&amp#27;[0m                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.thePagePaginationIsValidatedAndWorkingProperly()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28663
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 32602
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:38:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:49:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can visit the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](14)" classname="com.example.TestRunner" time="8.73">
+  <testcase name="runScenario[&quot;Validate that the user can visit the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](13)" classname="com.example.TestRunner" time="11.431">
     <system-out><![CDATA[
 @tests @popularmodel @smoketest
 Scenario Outline: Validate that the user can visit the Popular Model Page                                                                                                                            &amp#27;[90m# src/test/resources/features/PopularModelTest.feature:13&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1846557498test@
-paolovalidaccnt1846557498test@
-paolovalidaccnt1846557498test@
-paolovalidaccnt1846557498test@
-paolovalidaccnt1846557498test@
-paolovalidaccnt1846557498test@
-paolovalidaccnt1846557498test@
+paolovalidaccnt1658973855test@
+paolovalidaccnt1658973855test@
+paolovalidaccnt1658973855test@
+paolovalidaccnt1658973855test@
+paolovalidaccnt1658973855test@
+paolovalidaccnt1658973855test@
+paolovalidaccnt1658973855test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Model Button&amp#27;[0m                                                                                                                                                      &amp#27;[90m# com.example.StepDefinitions.PopularModelStepDefs.theUserClicksThePopularModelButton()&amp#27;[0m
 Diablo
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is redirected to the Popular Model Page&amp#27;[0m                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.PopularModelStepDefs.theUserIsRedirectedToThePopularModelPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 23537
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28013
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:38:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:50:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can vote and comment while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](15)" classname="com.example.TestRunner" time="11.345">
+  <testcase name="runScenario[&quot;Validate that the user can vote and comment while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](14)" classname="com.example.TestRunner" time="14.004">
     <system-out><![CDATA[
 @tests @popularmodel @smoketest
 Scenario Outline: Validate that the user can vote and comment while inside  the Popular Model Page                                                                                                   &amp#27;[90m# src/test/resources/features/PopularModelTest.feature:25&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1097386557test@
-paolovalidaccnt1097386557test@
-paolovalidaccnt1097386557test@
-paolovalidaccnt1097386557test@
-paolovalidaccnt1097386557test@
-paolovalidaccnt1097386557test@
-paolovalidaccnt1097386557test@
+paolovalidaccnt617976040test@
+paolovalidaccnt617976040test@
+paolovalidaccnt617976040test@
+paolovalidaccnt617976040test@
+paolovalidaccnt617976040test@
+paolovalidaccnt617976040test@
+paolovalidaccnt617976040test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -454,26 +411,26 @@ Lamborghini
 Thank you for your vote!
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidates that the vote is successful&amp#27;[0m                                                                                                                                                          &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.validatesThatTheVoteIsSuccessful()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20140
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 44747
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:38:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:50:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the Model Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](16)" classname="com.example.TestRunner" time="7.931">
+  <testcase name="runScenario[&quot;Validate that the Model Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](15)" classname="com.example.TestRunner" time="9.932">
     <system-out><![CDATA[
 @tests @popularmodel @smoketest
 Scenario Outline: Validate that the Model Column is present while inside  the Popular Model Page                                                                                                     &amp#27;[90m# src/test/resources/features/PopularModelTest.feature:50&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt518441558test@
-paolovalidaccnt518441558test@
-paolovalidaccnt518441558test@
-paolovalidaccnt518441558test@
-paolovalidaccnt518441558test@
-paolovalidaccnt518441558test@
-paolovalidaccnt518441558test@
+paolovalidaccnt821347543test@
+paolovalidaccnt821347543test@
+paolovalidaccnt821347543test@
+paolovalidaccnt821347543test@
+paolovalidaccnt821347543test@
+paolovalidaccnt821347543test@
+paolovalidaccnt821347543test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -481,26 +438,26 @@ Lamborghini
 Model
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mModel column should be present&amp#27;[0m                                                                                                                                                                 &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.modelColumnShouldBePresent()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 19042
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 18942
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:38:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:50:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the Model Column is populated while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](17)" classname="com.example.TestRunner" time="7.223">
+  <testcase name="runScenario[&quot;Validate that the Model Column is populated while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](16)" classname="com.example.TestRunner" time="10.597">
     <system-out><![CDATA[
 @tests @popularmodel @smoketest
 Scenario Outline: Validate that the Model Column is populated while inside  the Popular Model Page                                                                                                   &amp#27;[90m# src/test/resources/features/PopularModelTest.feature:60&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt655504369test@
-paolovalidaccnt655504369test@
-paolovalidaccnt655504369test@
-paolovalidaccnt655504369test@
-paolovalidaccnt655504369test@
-paolovalidaccnt655504369test@
-paolovalidaccnt655504369test@
+paolovalidaccnt1789241373test@
+paolovalidaccnt1789241373test@
+paolovalidaccnt1789241373test@
+paolovalidaccnt1789241373test@
+paolovalidaccnt1789241373test@
+paolovalidaccnt1789241373test@
+paolovalidaccnt1789241373test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -508,26 +465,26 @@ Lamborghini
 Diablo
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mModel column should be populated&amp#27;[0m                                                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.modelColumnShouldBePopulated()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 15438
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37957
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:50:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the Rank Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](18)" classname="com.example.TestRunner" time="6.748">
+  <testcase name="runScenario[&quot;Validate that the Rank Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](17)" classname="com.example.TestRunner" time="10.643">
     <system-out><![CDATA[
 @tests @popularmodel @smoketest
 Scenario Outline: Validate that the Rank Column is present while inside  the Popular Model Page                                                                                                      &amp#27;[90m# src/test/resources/features/PopularModelTest.feature:70&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt249135669test@
-paolovalidaccnt249135669test@
-paolovalidaccnt249135669test@
-paolovalidaccnt249135669test@
-paolovalidaccnt249135669test@
-paolovalidaccnt249135669test@
-paolovalidaccnt249135669test@
+paolovalidaccnt82641523test@
+paolovalidaccnt82641523test@
+paolovalidaccnt82641523test@
+paolovalidaccnt82641523test@
+paolovalidaccnt82641523test@
+paolovalidaccnt82641523test@
+paolovalidaccnt82641523test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
@@ -535,52 +492,52 @@ Lamborghini
 Rank
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mRank column should be present&amp#27;[0m                                                                                                                                                                  &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.rankColumnShouldBePresent()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17224
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24679
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:50:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the number of votes is populated while inside the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](19)" classname="com.example.TestRunner" time="9.862">
+  <testcase name="runScenario[&quot;Validate that the number of votes is populated while inside the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;](18)" classname="com.example.TestRunner" time="17.081">
     <system-out><![CDATA[
 @tests @popularmodel @smoketest
 Scenario Outline: Validate that the number of votes is populated while inside the Popular Model Page                                                                                                 &amp#27;[90m# src/test/resources/features/PopularModelTest.feature:80&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt9000931test@
-paolovalidaccnt9000931test@
-paolovalidaccnt9000931test@
-paolovalidaccnt9000931test@
-paolovalidaccnt9000931test@
-paolovalidaccnt9000931test@
-paolovalidaccnt9000931test@
+paolovalidaccnt482178634test@
+paolovalidaccnt482178634test@
+paolovalidaccnt482178634test@
+paolovalidaccnt482178634test@
+paolovalidaccnt482178634test@
+paolovalidaccnt482178634test@
+paolovalidaccnt482178634test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Popular Make Button&amp#27;[0m                                                                                                                                                       &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserClicksThePopularMakeButton()&amp#27;[0m
 Lamborghini
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is redirected to the Popular Make Page&amp#27;[0m                                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.PopularMakeStepDefs.theUserIsRedirectedToThePopularMakePage()&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mnumber of votes should be displayed&amp#27;[0m                                                                                                                                                            &amp#27;[90m# com.example.StepDefinitions.PopularModelStepDefs.numberOfVotesShouldBeDisplayed()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 23831
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20723
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:50:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can successfully change new password&quot;, &quot;Optional[Profile Test]&quot;](20)" classname="com.example.TestRunner" time="9.554">
+  <testcase name="runScenario[&quot;Validate that the user can successfully change new password&quot;, &quot;Optional[Profile Test]&quot;](19)" classname="com.example.TestRunner" time="20.939">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that the user can successfully change new password                                                                                                                        &amp#27;[90m# src/test/resources/features/Profile.feature:18&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt932112138test@
-paolovalidaccnt932112138test@
-paolovalidaccnt932112138test@
-paolovalidaccnt932112138test@
-paolovalidaccnt932112138test@
-paolovalidaccnt932112138test@
-paolovalidaccnt932112138test@
+paolovalidaccnt32068828test@
+paolovalidaccnt32068828test@
+paolovalidaccnt32068828test@
+paolovalidaccnt32068828test@
+paolovalidaccnt32068828test@
+paolovalidaccnt32068828test@
+paolovalidaccnt32068828test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -595,26 +552,26 @@ Paolomondelo#1234
 The profile has been saved successful
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma message that The profile has been saved successful should be displayed after saving&amp#27;[0m                                                                                                         &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.aMessageShouldBeDisplayedAfterSaving()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28221
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29525
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can visit the Profile Page&quot;, &quot;Optional[Profile Test]&quot;](21)" classname="com.example.TestRunner" time="8.123">
+  <testcase name="runScenario[&quot;Validate that the user can visit the Profile Page&quot;, &quot;Optional[Profile Test]&quot;](20)" classname="com.example.TestRunner" time="8.666">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that the user can visit the Profile Page                                                                                                                                  &amp#27;[90m# src/test/resources/features/Profile.feature:28&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt103557679test@
-paolovalidaccnt103557679test@
-paolovalidaccnt103557679test@
-paolovalidaccnt103557679test@
-paolovalidaccnt103557679test@
-paolovalidaccnt103557679test@
-paolovalidaccnt103557679test@
+paolovalidaccnt819726920test@
+paolovalidaccnt819726920test@
+paolovalidaccnt819726920test@
+paolovalidaccnt819726920test@
+paolovalidaccnt819726920test@
+paolovalidaccnt819726920test@
+paolovalidaccnt819726920test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -622,26 +579,26 @@ Basic
 Additional Info
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user will be able to view the profile page&amp#27;[0m                                                                                                                                                &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserWillBeAbleToViewTheProfilePage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 37585
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 30168
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:51:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can successfully change first name and last name&quot;, &quot;Optional[Profile Test]&quot;](22)" classname="com.example.TestRunner" time="7.431">
+  <testcase name="runScenario[&quot;Validate that the user can successfully change first name and last name&quot;, &quot;Optional[Profile Test]&quot;](21)" classname="com.example.TestRunner" time="18.633">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that the user can successfully change first name and last name                                                                                                            &amp#27;[90m# src/test/resources/features/Profile.feature:39&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt2117979521test@
-paolovalidaccnt2117979521test@
-paolovalidaccnt2117979521test@
-paolovalidaccnt2117979521test@
-paolovalidaccnt2117979521test@
-paolovalidaccnt2117979521test@
-paolovalidaccnt2117979521test@
+paolovalidaccnt2135859333test@
+paolovalidaccnt2135859333test@
+paolovalidaccnt2135859333test@
+paolovalidaccnt2135859333test@
+paolovalidaccnt2135859333test@
+paolovalidaccnt2135859333test@
+paolovalidaccnt2135859333test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -650,26 +607,26 @@ Basic
 The profile has been saved successful
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma message that The profile has been saved successful should be displayed after saving&amp#27;[0m                                                                                                         &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.aMessageShouldBeDisplayedAfterSaving()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20487
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 46862
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:51:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can successfully change Gender, Age, Address, and Phone&quot;, &quot;Optional[Profile Test]&quot;](23)" classname="com.example.TestRunner" time="8.757">
+  <testcase name="runScenario[&quot;Validate that the user can successfully change Gender, Age, Address, and Phone&quot;, &quot;Optional[Profile Test]&quot;](22)" classname="com.example.TestRunner" time="12.573">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that the user can successfully change Gender, Age, Address, and Phone                                                                                                     &amp#27;[90m# src/test/resources/features/Profile.feature:51&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1901517978test@
-paolovalidaccnt1901517978test@
-paolovalidaccnt1901517978test@
-paolovalidaccnt1901517978test@
-paolovalidaccnt1901517978test@
-paolovalidaccnt1901517978test@
-paolovalidaccnt1901517978test@
+paolovalidaccnt1636220103test@
+paolovalidaccnt1636220103test@
+paolovalidaccnt1636220103test@
+paolovalidaccnt1636220103test@
+paolovalidaccnt1636220103test@
+paolovalidaccnt1636220103test@
+paolovalidaccnt1636220103test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -679,26 +636,26 @@ Basic
 The profile has been saved successful
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma message that The profile has been saved successful should be displayed after saving&amp#27;[0m                                                                                                         &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.aMessageShouldBeDisplayedAfterSaving()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29627
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 39675
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:52:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](24)" classname="com.example.TestRunner" time="8.439">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](23)" classname="com.example.TestRunner" time="13.198">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers                                                             &amp#27;[90m# src/test/resources/features/Profile.feature:67&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1951982881test@
-paolovalidaccnt1951982881test@
-paolovalidaccnt1951982881test@
-paolovalidaccnt1951982881test@
-paolovalidaccnt1951982881test@
-paolovalidaccnt1951982881test@
-paolovalidaccnt1951982881test@
+paolovalidaccnt828935080test@
+paolovalidaccnt828935080test@
+paolovalidaccnt828935080test@
+paolovalidaccnt828935080test@
+paolovalidaccnt828935080test@
+paolovalidaccnt828935080test@
+paolovalidaccnt828935080test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -713,26 +670,26 @@ Paolomondelo#1234
 Age must be in the range from 0 to 95
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept values greater than &amp#27;[0m&amp#27;[32m&amp#27;[1m95&amp#27;[0m&amp#27;[32m or less than &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptValuesGreaterThanOrLessThan(int,int)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 11318
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 6282
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:39:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:52:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](25)" classname="com.example.TestRunner" time="10.165">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](24)" classname="com.example.TestRunner" time="19.96">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers                                                             &amp#27;[90m# src/test/resources/features/Profile.feature:68&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt82746563test@
-paolovalidaccnt82746563test@
-paolovalidaccnt82746563test@
-paolovalidaccnt82746563test@
-paolovalidaccnt82746563test@
-paolovalidaccnt82746563test@
-paolovalidaccnt82746563test@
+paolovalidaccnt771966261test@
+paolovalidaccnt771966261test@
+paolovalidaccnt771966261test@
+paolovalidaccnt771966261test@
+paolovalidaccnt771966261test@
+paolovalidaccnt771966261test@
+paolovalidaccnt771966261test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -747,26 +704,26 @@ Paolomondelo#1234
 Age must be in the range from 0 to 95
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept values greater than &amp#27;[0m&amp#27;[32m&amp#27;[1m95&amp#27;[0m&amp#27;[32m or less than &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptValuesGreaterThanOrLessThan(int,int)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 25951
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 19114
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:40:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:52:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](26)" classname="com.example.TestRunner" time="8.385">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](25)" classname="com.example.TestRunner" time="16.482">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers                                                             &amp#27;[90m# src/test/resources/features/Profile.feature:69&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt279356139test@
-paolovalidaccnt279356139test@
-paolovalidaccnt279356139test@
-paolovalidaccnt279356139test@
-paolovalidaccnt279356139test@
-paolovalidaccnt279356139test@
-paolovalidaccnt279356139test@
+paolovalidaccnt1250533880test@
+paolovalidaccnt1250533880test@
+paolovalidaccnt1250533880test@
+paolovalidaccnt1250533880test@
+paolovalidaccnt1250533880test@
+paolovalidaccnt1250533880test@
+paolovalidaccnt1250533880test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -781,26 +738,26 @@ Paolomondelo#1234
 Age must be in the range from 0 to 95
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept values greater than &amp#27;[0m&amp#27;[32m&amp#27;[1m95&amp#27;[0m&amp#27;[32m or less than &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptValuesGreaterThanOrLessThan(int,int)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 24535
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 10767
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:40:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:52:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](27)" classname="com.example.TestRunner" time="9.441">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers&quot;, &quot;Optional[Profile Test]&quot;](26)" classname="com.example.TestRunner" time="13.312">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers                                                             &amp#27;[90m# src/test/resources/features/Profile.feature:70&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1645647658test@
-paolovalidaccnt1645647658test@
-paolovalidaccnt1645647658test@
-paolovalidaccnt1645647658test@
-paolovalidaccnt1645647658test@
-paolovalidaccnt1645647658test@
-paolovalidaccnt1645647658test@
+paolovalidaccnt246236595test@
+paolovalidaccnt246236595test@
+paolovalidaccnt246236595test@
+paolovalidaccnt246236595test@
+paolovalidaccnt246236595test@
+paolovalidaccnt246236595test@
+paolovalidaccnt246236595test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -815,26 +772,26 @@ Paolomondelo#1234
 Age must be in the range from 0 to 95
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept values greater than &amp#27;[0m&amp#27;[32m&amp#27;[1m95&amp#27;[0m&amp#27;[32m or less than &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                                                                                               &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptValuesGreaterThanOrLessThan(int,int)&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 10125
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 34150
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:40:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:52:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](28)" classname="com.example.TestRunner" time="8.694">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](27)" classname="com.example.TestRunner" time="16.792">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point                                                      &amp#27;[90m# src/test/resources/features/Profile.feature:85&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1482185917test@
-paolovalidaccnt1482185917test@
-paolovalidaccnt1482185917test@
-paolovalidaccnt1482185917test@
-paolovalidaccnt1482185917test@
-paolovalidaccnt1482185917test@
-paolovalidaccnt1482185917test@
+paolovalidaccnt1414960170test@
+paolovalidaccnt1414960170test@
+paolovalidaccnt1414960170test@
+paolovalidaccnt1414960170test@
+paolovalidaccnt1414960170test@
+paolovalidaccnt1414960170test@
+paolovalidaccnt1414960170test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -849,26 +806,26 @@ Paolomondelo#1234
 Get a candy ;)
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept any values with decimal points or non ascii char&amp#27;[0m                                                                                                                    &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptAnyValuesWithDecimalPointsOrNonAsciiChar()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13922
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 39838
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:40:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:53:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](29)" classname="com.example.TestRunner" time="8.612">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](28)" classname="com.example.TestRunner" time="17.695">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point                                                      &amp#27;[90m# src/test/resources/features/Profile.feature:86&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt813391704test@
-paolovalidaccnt813391704test@
-paolovalidaccnt813391704test@
-paolovalidaccnt813391704test@
-paolovalidaccnt813391704test@
-paolovalidaccnt813391704test@
-paolovalidaccnt813391704test@
+paolovalidaccnt1846779777test@
+paolovalidaccnt1846779777test@
+paolovalidaccnt1846779777test@
+paolovalidaccnt1846779777test@
+paolovalidaccnt1846779777test@
+paolovalidaccnt1846779777test@
+paolovalidaccnt1846779777test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -883,26 +840,26 @@ Paolomondelo#1234
 Get a candy ;)
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept any values with decimal points or non ascii char&amp#27;[0m                                                                                                                    &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptAnyValuesWithDecimalPointsOrNonAsciiChar()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 14182
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 34422
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:40:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:53:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](30)" classname="com.example.TestRunner" time="10.42">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](29)" classname="com.example.TestRunner" time="7.683">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point                                                      &amp#27;[90m# src/test/resources/features/Profile.feature:87&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt2093909846test@
-paolovalidaccnt2093909846test@
-paolovalidaccnt2093909846test@
-paolovalidaccnt2093909846test@
-paolovalidaccnt2093909846test@
-paolovalidaccnt2093909846test@
-paolovalidaccnt2093909846test@
+paolovalidaccnt2027828931test@
+paolovalidaccnt2027828931test@
+paolovalidaccnt2027828931test@
+paolovalidaccnt2027828931test@
+paolovalidaccnt2027828931test@
+paolovalidaccnt2027828931test@
+paolovalidaccnt2027828931test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -917,26 +874,26 @@ Paolomondelo#1234
 Get a candy ;)
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept any values with decimal points or non ascii char&amp#27;[0m                                                                                                                    &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptAnyValuesWithDecimalPointsOrNonAsciiChar()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 47342
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 49033
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:40:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:53:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](31)" classname="com.example.TestRunner" time="8.922">
+  <testcase name="runScenario[&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point&quot;, &quot;Optional[Profile Test]&quot;](30)" classname="com.example.TestRunner" time="21.931">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point                                                      &amp#27;[90m# src/test/resources/features/Profile.feature:88&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                           &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt285278372test@
-paolovalidaccnt285278372test@
-paolovalidaccnt285278372test@
-paolovalidaccnt285278372test@
-paolovalidaccnt285278372test@
-paolovalidaccnt285278372test@
-paolovalidaccnt285278372test@
+paolovalidaccnt1216152457test@
+paolovalidaccnt1216152457test@
+paolovalidaccnt1216152457test@
+paolovalidaccnt1216152457test@
+paolovalidaccnt1216152457test@
+paolovalidaccnt1216152457test@
+paolovalidaccnt1216152457test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -951,26 +908,26 @@ Paolomondelo#1234
 Get a candy ;)
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe app should not accept any values with decimal points or non ascii char&amp#27;[0m                                                                                                                    &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theAppShouldNotAcceptAnyValuesWithDecimalPointsOrNonAsciiChar()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 35023
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 14064
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:41:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:54:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that app should throw an  error message stating that the new password used must have a combination of alphanumeric and must have lowercase andmust have a nonascii character&quot;, &quot;Optional[Profile Test]&quot;](32)" classname="com.example.TestRunner" time="8.058">
+  <testcase name="runScenario[&quot;Validate that app should throw an  error message stating that the new password used must have a combination of alphanumeric and must have lowercase andmust have a nonascii character&quot;, &quot;Optional[Profile Test]&quot;](31)" classname="com.example.TestRunner" time="12.905">
     <system-out><![CDATA[
 @tests @profile @smoketest
 Scenario Outline: Validate that app should throw an  error message stating that the new password used must have a combination of alphanumeric and must have lowercase andmust have a nonascii character &amp#27;[90m# src/test/resources/features/Profile.feature:100&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                                                                                                              &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
-paolovalidaccnt1650797175test@
-paolovalidaccnt1650797175test@
-paolovalidaccnt1650797175test@
-paolovalidaccnt1650797175test@
-paolovalidaccnt1650797175test@
-paolovalidaccnt1650797175test@
-paolovalidaccnt1650797175test@
+paolovalidaccnt1079509063test@
+paolovalidaccnt1079509063test@
+paolovalidaccnt1079509063test@
+paolovalidaccnt1079509063test@
+paolovalidaccnt1079509063test@
+paolovalidaccnt1079509063test@
+paolovalidaccnt1079509063test@
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user creates a new user with login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m&amp#27;[32m and last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m&amp#27;[32m and user enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m    &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserCreatesANewUserWithLoginNameLoginnameAndFistNameFirstnameAndLastNameLastnameAndPasswordNamePasswordAndAndUserEntersConfirmsPasswordConfirmspassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the profile link&amp#27;[0m                                                                                                                                                                 &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.theUserClicksTheProfileLink()&amp#27;[0m
 Basic
@@ -983,21 +940,21 @@ paolomondelo1234
 InvalidPasswordException: Password did not conform with policy: Password must have uppercase characters
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32man error message should be displayed after saving&amp#27;[0m                                                                                                                                                &amp#27;[90m# com.example.StepDefinitions.ProfileStepDefs.anErrorMessageShouldBeDisplayedAfterSaving()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 29477
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 41120
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:41:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:54:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user cannot register using invalid password format&quot;, &quot;Optional[Registration Test]&quot;](33)" classname="com.example.TestRunner" time="6.044">
+  <testcase name="runScenario[&quot;Validate that the user cannot register using invalid password format&quot;, &quot;Optional[Registration Test]&quot;](32)" classname="com.example.TestRunner" time="7.71">
     <system-out><![CDATA[
 @tests @registration @smoketest
 Scenario Outline: Validate that the user cannot register using invalid password format                             &amp#27;[90m# src/test/resources/features/RegistrationTest.feature:16&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                                                         &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user goes to the Register section&amp#27;[0m                                                                        &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserGoesToTheRegisterSection()&amp#27;[0m
-invalidpaolo1658984812test@
+invalidpaolo817385056test@
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters login name: &amp#27;[0m&amp#27;[32m&amp#27;[1minvalidpaolo&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m                                                      &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.userEntersLoginnameAndFirstname(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpassword&amp#27;[0m                                                   &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.userEntersLastnameAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mpassword&amp#27;[0m                                                                      &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.useEntersConfirmsPasswordConfirmspassword(java.lang.String)&amp#27;[0m
@@ -1005,21 +962,21 @@ invalidpaolo1658984812test@
 InvalidPasswordException: Password did not conform with policy: Password must have uppercase characters
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32msystem should not allow the user to register and error message InvalidPasswordException should be displayed&amp#27;[0m &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.systemShouldNotAllowTheUserToRegisterAndErrorMessageShouldBeDisplayedErrormessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 17432
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20772
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:41:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:54:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validate that the user can register using valid password format&quot;, &quot;Optional[Registration Test]&quot;](34)" classname="com.example.TestRunner" time="5.425">
+  <testcase name="runScenario[&quot;Validate that the user can register using valid password format&quot;, &quot;Optional[Registration Test]&quot;](33)" classname="com.example.TestRunner" time="16.231">
     <system-out><![CDATA[
 @tests @registration @smoketest
 Scenario Outline: Validate that the user can register using valid password format &amp#27;[90m# src/test/resources/features/RegistrationTest.feature:28&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLaunch Application&amp#27;[0m                                                        &amp#27;[90m# com.example.StepDefinitions.LoginStepDefs.openApplication()&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma user goes to the Register section&amp#27;[0m                                       &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.aUserGoesToTheRegisterSection()&amp#27;[0m
-paolomondelovalidaccnt771930963test@
+paolomondelovalidaccnt1023207656test@
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters login name: &amp#27;[0m&amp#27;[32m&amp#27;[1mpaolomondelovalidaccnt&amp#27;[0m&amp#27;[32m and fist name: &amp#27;[0m&amp#27;[32m&amp#27;[1mAsh&amp#27;[0m           &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.userEntersLoginnameAndFirstname(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters last name: &amp#27;[0m&amp#27;[32m&amp#27;[1mKetchum&amp#27;[0m&amp#27;[32m and password name: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m          &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.userEntersLastnameAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters confirms password: &amp#27;[0m&amp#27;[32m&amp#27;[1mPaolomondelo#123&amp#27;[0m                             &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.useEntersConfirmsPasswordConfirmspassword(java.lang.String)&amp#27;[0m
@@ -1027,11 +984,11 @@ paolomondelovalidaccnt771930963test@
 Registration is successful
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32msystem should allow the user to register successfully&amp#27;[0m                      &amp#27;[90m# com.example.StepDefinitions.RegistrationStepDefs.systemShouldAllowTheUserToRegisterSuccessfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 21137
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 27410
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 13, 2021 7:41:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 13, 2021 8:54:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
